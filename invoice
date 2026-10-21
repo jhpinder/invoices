@@ -1,0 +1,4 @@
+#!/bin/bash
+# Thin wrapper so you can run ./invoice instead of .venv/bin/python build.py
+DIR="$(cd "$(dirname "$0")" && pwd)"
+exec "$DIR/.venv/bin/python" "$DIR/build.py" "$@"

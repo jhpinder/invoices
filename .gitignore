@@ -1,0 +1,13 @@
+# Machine-local
+.DS_Store
+.venv/
+
+# Your own data - never commit.
+# config.yaml holds your business identity; invoices/ and dist/ hold
+# your invoices and rendered output.
+config.yaml
+invoices/
+dist/
+
+# Invoice exports, receipts
+*.pdf

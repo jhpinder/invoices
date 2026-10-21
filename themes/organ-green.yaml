@@ -1,0 +1,8 @@
+name: "Organ Green & Brass"
+accent: "#1f4d3a"       # table header, headings
+accent_text: "#f7f4ec"  # text on accent background
+secondary: "#a8842c"    # brass rules & highlights
+panel_bg: "#f4f1e6"     # "Bill To" panel
+text: "#1c1c1a"
+muted: "#6a6a5f"
+border: "#d9d4c2"
